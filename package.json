@@ -1,0 +1,27 @@
+{
+  "name": "packagemanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "dev":"supervisor index.js",
+    "test": "./node_modules/.bin/mocha",
+    "lint":"./node_modules/.bin/eslint index.js"
+  },
+  "keywords": [
+    "test",
+    "wp",
+    "npm",
+    "node"
+  ],
+  "author": "AlanQuintana",
+  "license": "ISC",
+  "dependencies": {
+    "log4js": "^6.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "mocha": "^10.2.0"
+  }
+}
