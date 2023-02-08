@@ -4,7 +4,7 @@ const log4js = require('log4js');
 let logger = log4js.getLogger();
 logger.level = 'error';
 
-logger.info("La aplicacion se ejecuto correctamente.");
+logger.info("La aplicacion se ejecuto correctamente!!");
 //logger.warning("Cuidado falta un archivo de configuraciones");
 logger.error("No se encontro la funcion email al mandarla a llamar");
 logger.fatal("La aplicacion no se pudo iniciar");
